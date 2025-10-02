@@ -1,0 +1,1118 @@
+fileFormatVersion: 2
+guid: ff606039150ba33419b51295e54e8c55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1895667225985246104
+    second: 04_Graves_0
+  - first:
+      213: 3924031585350822129
+    second: 04_Graves_1
+  - first:
+      213: -1819024941621233449
+    second: 04_Graves_2
+  - first:
+      213: 1993338845969685023
+    second: 04_Graves_3
+  - first:
+      213: -2907571593602698222
+    second: 04_Graves_4
+  - first:
+      213: -5211216121950504669
+    second: 04_Graves_5
+  - first:
+      213: 842283304488365528
+    second: 04_Graves_6
+  - first:
+      213: -1711007188212914623
+    second: 04_Graves_7
+  - first:
+      213: 960825450269963820
+    second: 04_Graves_8
+  - first:
+      213: -233253361180685132
+    second: 04_Graves_9
+  - first:
+      213: -3399143197684710455
+    second: 04_Graves_10
+  - first:
+      213: 2144265673536887910
+    second: 04_Graves_11
+  - first:
+      213: 7623166450197379672
+    second: 04_Graves_12
+  - first:
+      213: 8111877028070576366
+    second: 04_Graves_13
+  - first:
+      213: -1916001294978731883
+    second: 04_Graves_14
+  - first:
+      213: 4783830635090956505
+    second: 04_Graves_15
+  - first:
+      213: -2083981602738736656
+    second: 04_Graves_16
+  - first:
+      213: -6926570846913241895
+    second: 04_Graves_17
+  - first:
+      213: -8471973543813725059
+    second: 04_Graves_18
+  - first:
+      213: -6109238978801590933
+    second: 04_Graves_19
+  - first:
+      213: 610657124182934803
+    second: 04_Graves_20
+  - first:
+      213: 5053244979903268527
+    second: 04_Graves_21
+  - first:
+      213: 1103619220453292249
+    second: 04_Graves_22
+  - first:
+      213: 6516740386707561760
+    second: 04_Graves_23
+  - first:
+      213: -2719055409106910336
+    second: 04_Graves_24
+  - first:
+      213: 8863863597489942204
+    second: 04_Graves_25
+  - first:
+      213: 2718591148723473587
+    second: 04_Graves_26
+  - first:
+      213: -7582315686408236923
+    second: 04_Graves_27
+  - first:
+      213: -7515514957689578282
+    second: 04_Graves_28
+  - first:
+      213: -2724671258556729791
+    second: 04_Graves_29
+  - first:
+      213: -4939198555121553860
+    second: 04_Graves_30
+  - first:
+      213: -5144886215420948160
+    second: 04_Graves_31
+  - first:
+      213: 8227671935951158682
+    second: 04_Graves_32
+  - first:
+      213: -475386642991128071
+    second: 04_Graves_33
+  - first:
+      213: 2532857803654117449
+    second: 04_Graves_34
+  - first:
+      213: 1354241801620699982
+    second: 04_Graves_35
+  - first:
+      213: 3911425363762452961
+    second: 04_Graves_36
+  - first:
+      213: 4640953268884333648
+    second: 04_Graves_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 04_Graves_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 848
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89363316c43ce4a10800000000000000
+      internalID: 1895667225985246104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 159
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8af3cbfe5f47630800000000000000
+      internalID: 3924031585350822129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 159
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d83715047681c6e0800000000000000
+      internalID: -1819024941621233449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 159
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a92078e13c9ab10800000000000000
+      internalID: 1993338845969685023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 159
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2147b446a0b36a7d0800000000000000
+      internalID: -2907571593602698222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 159
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329f95b1c8a0ea7b0800000000000000
+      internalID: -5211216121950504669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_6
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 159
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd654ce33460bb00800000000000000
+      internalID: 842283304488365528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 159
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146ed6217084148e0800000000000000
+      internalID: -1711007188212914623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_8
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 159
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26fe7608a9855d00800000000000000
+      internalID: 960825450269963820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 159
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcc828cd4153ccf0800000000000000
+      internalID: -233253361180685132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_10
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 159
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c341596541d3d0d0800000000000000
+      internalID: -3399143197684710455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_11
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 159
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cda3fe446f1cd10800000000000000
+      internalID: 2144265673536887910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_12
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 159
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ab0b74f7deac960800000000000000
+      internalID: 7623166450197379672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 95
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee05ccfad2d239070800000000000000
+      internalID: 8111877028070576366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_14
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 95
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590ba9f39fef865e0800000000000000
+      internalID: -1916001294978731883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 95
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d05a36ed94936240800000000000000
+      internalID: 4783830635090956505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 95
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1fe4216c53413e0800000000000000
+      internalID: -2083981602738736656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_17
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 95
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcd8266380efdf90800000000000000
+      internalID: -6926570846913241895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_18
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 95
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74c976c2f08d6a80800000000000000
+      internalID: -8471973543813725059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 95
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d9f84548f973ba0800000000000000
+      internalID: -6109238978801590933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_20
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 95
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3154c764b6d797800800000000000000
+      internalID: 610657124182934803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_21
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 95
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa60926398bb02640800000000000000
+      internalID: 5053244979903268527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_22
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 95
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8796275d7d05f00800000000000000
+      internalID: 1103619220453292249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_23
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 95
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d5523cadc107a50800000000000000
+      internalID: 6516740386707561760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_24
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 95
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0830497f289f34ad0800000000000000
+      internalID: -2719055409106910336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 31
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe67e9aaf4c20b70800000000000000
+      internalID: 8863863597489942204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_26
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 31
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc0f2dfe306ab520800000000000000
+      internalID: 2718591148723473587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_27
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 31
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580d3c85e0436c690800000000000000
+      internalID: -7582315686408236923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_28
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 31
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc17c207f683b790800000000000000
+      internalID: -7515514957689578282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_29
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 31
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14672002de5003ad0800000000000000
+      internalID: -2724671258556729791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_30
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 31
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e6bd64511747bb0800000000000000
+      internalID: -4939198555121553860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_31
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 31
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041d700fe31b998b0800000000000000
+      internalID: -5144886215420948160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_32
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 31
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9db1de98009e2270800000000000000
+      internalID: 8227671935951158682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 31
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f16c8ded561769f0800000000000000
+      internalID: -475386642991128071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_34
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 31
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9483165b0c4862320800000000000000
+      internalID: 2532857803654117449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_35
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 31
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b36955ebb3bc210800000000000000
+      internalID: 1354241801620699982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_36
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 31
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9938c05ac284630800000000000000
+      internalID: 3911425363762452961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Graves_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 848
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054e903c86af76040800000000000000
+      internalID: 4640953268884333648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      04_Graves_0: 1895667225985246104
+      04_Graves_1: 3924031585350822129
+      04_Graves_10: -3399143197684710455
+      04_Graves_11: 2144265673536887910
+      04_Graves_12: 7623166450197379672
+      04_Graves_13: 8111877028070576366
+      04_Graves_14: -1916001294978731883
+      04_Graves_15: 4783830635090956505
+      04_Graves_16: -2083981602738736656
+      04_Graves_17: -6926570846913241895
+      04_Graves_18: -8471973543813725059
+      04_Graves_19: -6109238978801590933
+      04_Graves_2: -1819024941621233449
+      04_Graves_20: 610657124182934803
+      04_Graves_21: 5053244979903268527
+      04_Graves_22: 1103619220453292249
+      04_Graves_23: 6516740386707561760
+      04_Graves_24: -2719055409106910336
+      04_Graves_25: 8863863597489942204
+      04_Graves_26: 2718591148723473587
+      04_Graves_27: -7582315686408236923
+      04_Graves_28: -7515514957689578282
+      04_Graves_29: -2724671258556729791
+      04_Graves_3: 1993338845969685023
+      04_Graves_30: -4939198555121553860
+      04_Graves_31: -5144886215420948160
+      04_Graves_32: 8227671935951158682
+      04_Graves_33: -475386642991128071
+      04_Graves_34: 2532857803654117449
+      04_Graves_35: 1354241801620699982
+      04_Graves_36: 3911425363762452961
+      04_Graves_37: 4640953268884333648
+      04_Graves_4: -2907571593602698222
+      04_Graves_5: -5211216121950504669
+      04_Graves_6: 842283304488365528
+      04_Graves_7: -1711007188212914623
+      04_Graves_8: 960825450269963820
+      04_Graves_9: -233253361180685132
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
