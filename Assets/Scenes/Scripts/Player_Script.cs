@@ -1,42 +1,100 @@
-using UnityEngine;
+﻿using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Player_Script : MonoBehaviour
 {
     [Header("Movimiento")]
     [SerializeField] public float moveSpeed = 5f;
 
+    [Header("Background")]
+    [SerializeField] private GameObject backgroundRoot; 
+
     private SpriteRenderer sr;
-    private Camera cam;
+    private Vector2 inputDir;
+    private Rigidbody2D rb;
 
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
-        cam = Camera.main;
-    }
-
-    void Start()
-    {
-        if (cam != null)
-            cam.backgroundColor = new Color(0.10f, 0.10f, 0.12f);
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-        Vector2 dir = Vector2.zero;
+        HandleInput();
+        HandleState();
+    }
 
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)) dir.x -= 1f;
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) dir.x += 1f;
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) dir.y += 1f;
-        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)) dir.y -= 1f;
+    void FixedUpdate()
+    {
+        HandleMovement(Time.fixedDeltaTime);
+    }
 
-        if (dir.sqrMagnitude > 1f) dir = dir.normalized;
+    private void HandleInput()
+    {
+        inputDir = Vector2.zero;
 
-        transform.Translate(dir * moveSpeed * Time.deltaTime);
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)) inputDir.x -= 1f;
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) inputDir.x += 1f;
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) inputDir.y += 1f;
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)) inputDir.y -= 1f;
 
-        if (Input.GetKeyDown(KeyCode.B) && cam != null)
-            cam.backgroundColor = Random.ColorHSV(0f, 1f, 0.5f, 1f, 0.08f, 0.25f);
+        if (inputDir.sqrMagnitude > 1f) inputDir = inputDir.normalized;
+
+        if (sr != null)
+        {
+            if (inputDir.x > 0.01f)
+                sr.flipX = false;
+            else if (inputDir.x < -0.01f)
+                sr.flipX = true;
+        }
+    }
+
+    private void HandleMovement(float dt)
+    {
+        Vector2 nextPos = rb.position + inputDir * moveSpeed * dt;
+        rb.MovePosition(nextPos);
+    }
+
+    private void HandleState()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+            ChangeBackgroundColor();
 
         if (Input.GetKeyDown(KeyCode.C) && sr != null)
             sr.color = Random.ColorHSV();
+    }
+
+    private void ChangeBackgroundColor()
+    {
+        if (backgroundRoot == null) return;
+        var tiles = backgroundRoot.GetComponentsInChildren<SpriteRenderer>(true);
+
+        foreach (var tile in tiles)
+        {
+            Color c = Random.ColorHSV(
+                0f, 1f,     
+                0.7f, 1f,   
+                0.75f, 1f, 
+                1f, 1f  
+            );
+            tile.color = c;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Wall"))
+            PlayBeep();
+    }
+
+    private void PlayBeep()
+    {
+#if UNITY_EDITOR
+        EditorApplication.Beep(); // beep instantáneo (solo en el Editor)
+#endif
     }
 }

@@ -9,39 +9,27 @@ public class Enemy_Script : MonoBehaviour
     private float topEdge;
     private float bottomEdge;
 
-    private void Awake()
+    void Awake()
     {
         bottomEdge = transform.position.y - movementDistance;
         topEdge = transform.position.y + movementDistance;
     }
 
-    private void Update()
+    void Update()
     {
-        if (movingUp)
-        {
-            if (transform.position.y < topEdge)
-            {
-                transform.position = new Vector3(
-                    transform.position.x,
-                    transform.position.y + speed * Time.deltaTime,
-                    transform.position.z
-                );
-            }
-            else
-                movingUp = false;
-        }
-        else
-        {
-            if (transform.position.y > bottomEdge)
-            {
-                transform.position = new Vector3(
-                    transform.position.x,
-                    transform.position.y - speed * Time.deltaTime,
-                    transform.position.z
-                );
-            }
-            else
-                movingUp = true;
-        }
+        HandleState();                   
+        HandleMovement(Time.deltaTime);
+    }
+    private void HandleState()
+    {
+        if (movingUp && transform.position.y >= topEdge) movingUp = false;
+        else if (!movingUp && transform.position.y <= bottomEdge) movingUp = true;
+    }
+
+    private void HandleMovement(float dt)
+    {
+        float dy = (movingUp ? +1f : -1f) * speed * dt;
+        float newY = Mathf.Clamp(transform.position.y + dy, bottomEdge, topEdge);
+        transform.position = new Vector3(transform.position.x, newY, transform.position.z);
     }
 }
