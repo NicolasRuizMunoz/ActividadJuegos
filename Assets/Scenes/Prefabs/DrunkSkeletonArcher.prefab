@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!1 &7505499672864026036
+=======
+--- !u!1 &4653214985720289050
+>>>>>>> 1cd4e3141602922c8094a663b41e9866b1807829
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +12,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 238916896046792577}
   - component: {fileID: 5558873923600703}
   - component: {fileID: 3758684170447417189}
+=======
+  - component: {fileID: 3122885295631159646}
+  - component: {fileID: 3206164604615286314}
+  - component: {fileID: 1401494166919037077}
+>>>>>>> 1cd4e3141602922c8094a663b41e9866b1807829
   m_Layer: 0
   m_Name: DrunkSkeletonArcher
   m_TagString: Untagged
@@ -18,13 +28,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &238916896046792577
+=======
+--- !u!4 &3122885295631159646
+>>>>>>> 1cd4e3141602922c8094a663b41e9866b1807829
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 7505499672864026036}
+=======
+  m_GameObject: {fileID: 4653214985720289050}
+>>>>>>> 1cd4e3141602922c8094a663b41e9866b1807829
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.1, y: -0.05, z: 0}
@@ -33,13 +51,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!212 &5558873923600703
+=======
+--- !u!212 &3206164604615286314
+>>>>>>> 1cd4e3141602922c8094a663b41e9866b1807829
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 7505499672864026036}
+=======
+  m_GameObject: {fileID: 4653214985720289050}
+>>>>>>> 1cd4e3141602922c8094a663b41e9866b1807829
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,8 +100,13 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -413203865
   m_SortingLayer: 2
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+>>>>>>> 1cd4e3141602922c8094a663b41e9866b1807829
   m_SortingOrder: 0
   m_Sprite: {fileID: 2931975188387055883, guid: aeaae0b293b87bd479444031eb782c37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -88,13 +119,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!114 &3758684170447417189
+=======
+--- !u!114 &1401494166919037077
+>>>>>>> 1cd4e3141602922c8094a663b41e9866b1807829
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 7505499672864026036}
+=======
+  m_GameObject: {fileID: 4653214985720289050}
+>>>>>>> 1cd4e3141602922c8094a663b41e9866b1807829
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d35a13bf125f54147afd85835a535c49, type: 3}
