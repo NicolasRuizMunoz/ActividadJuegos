@@ -94,7 +94,7 @@ public class Player_Script : MonoBehaviour
     private void PlayBeep()
     {
 #if UNITY_EDITOR
-        EditorApplication.Beep(); // beep instantáneo (solo en el Editor)
+        EditorApplication.Beep(); 
 #endif
     }
 }
