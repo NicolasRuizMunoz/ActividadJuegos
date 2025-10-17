@@ -32,7 +32,6 @@ public class PhysicsController : MonoBehaviour
             else
             {
                 audioCtrl?.PlayWallBeep();
-                stateCtrl?.NotifyBumpedWall();
             }
         }
     }
