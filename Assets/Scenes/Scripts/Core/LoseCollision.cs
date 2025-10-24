@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 [DisallowMultipleComponent]
 public class LoseCollision : MonoBehaviour
@@ -9,7 +8,7 @@ public class LoseCollision : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Lose: Player hit by enemy or arrow");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GlobalEvents.Instance?.RaiseLose();
         }
     }
 }
