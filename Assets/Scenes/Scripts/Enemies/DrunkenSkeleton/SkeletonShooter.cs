@@ -1,16 +1,23 @@
 ﻿using UnityEngine;
 
+[DisallowMultipleComponent]
 public class SkeletonShooter : MonoBehaviour
 {
-    [SerializeField] private GameObject arrowPrefab;
-    [SerializeField] private float spawnRadius = 3f;
-    [SerializeField] private float projectileLifetime = 5f;
+    [Header("Disparo")]
+    [SerializeField, Range(1f, 10f), Tooltip("Radio máximo en el que puede aparecer la flecha")]
+    private float spawnRadius = 3f;
+
+    [SerializeField, Range(1f, 10f), Tooltip("Duración de la flecha antes de destruirse")]
+    private float projectileLifetime = 5f;
+
+    [SerializeField, Tooltip("Prefab de la flecha enemiga")]
+    private GameObject arrowPrefab;
 
     public void Shoot()
     {
         if (!arrowPrefab) return;
 
-        // posición  alrededor del esqueleto
+        // posición aleatoria alrededor del esqueleto
         Vector2 off = Random.insideUnitCircle * spawnRadius;
         Vector3 spawnPos = transform.position + new Vector3(off.x, off.y, 0f);
 
@@ -19,7 +26,7 @@ public class SkeletonShooter : MonoBehaviour
         do { dir = Random.insideUnitCircle; } while (dir.sqrMagnitude < 0.05f);
         dir.Normalize();
 
-        // inicializar flecha
+        // instanciar flecha
         var arrow = Instantiate(arrowPrefab, spawnPos, Quaternion.identity);
         var proj = arrow.GetComponent<EnemyProjectile>();
         if (proj) proj.Initialize(dir, projectileLifetime);

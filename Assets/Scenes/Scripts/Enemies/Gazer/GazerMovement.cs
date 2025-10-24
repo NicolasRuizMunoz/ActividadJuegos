@@ -1,8 +1,14 @@
 using UnityEngine;
+
+[DisallowMultipleComponent]
 public class GazerMovement : MonoBehaviour
 {
-    [SerializeField] private float movementDistance = 3f;
-    [SerializeField] private float speed = 2f;
+    [Header("Movimiento vertical")]
+    [SerializeField, Tooltip("Distancia total de desplazamiento vertical")]
+    private float movementDistance = 3f;
+
+    [SerializeField, Tooltip("Velocidad de movimiento en unidades por segundo")]
+    private float speed = 2f;
 
     private bool movingUp;
     private float topEdge;
@@ -19,15 +25,19 @@ public class GazerMovement : MonoBehaviour
     void Update()
     {
         float dy = (movingUp ? 1f : -1f) * speed * Time.deltaTime;
+
+        // movimiento vertical
         transform.position = new Vector3(
             transform.position.x,
             Mathf.Clamp(transform.position.y + dy, bottomEdge, topEdge),
             transform.position.z
         );
 
+        // invertir dirección
         if (transform.position.y >= topEdge) movingUp = false;
         if (transform.position.y <= bottomEdge) movingUp = true;
 
+        // notificar al estado visual
         state?.SetDirection(movingUp);
     }
 }
