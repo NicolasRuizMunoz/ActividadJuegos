@@ -1,4 +1,6 @@
 using UnityEngine;
+
+[DisallowMultipleComponent]
 public class GazerState : MonoBehaviour
 {
     private SpriteRenderer sr;

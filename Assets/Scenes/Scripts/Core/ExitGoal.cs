@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 [DisallowMultipleComponent]
 public class ExitGoal : MonoBehaviour
@@ -9,7 +8,7 @@ public class ExitGoal : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Win: Player reached the exit!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GlobalEvents.Instance?.RaiseWin();
         }
     }
 }

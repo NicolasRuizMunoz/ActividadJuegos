@@ -1,15 +1,22 @@
 using UnityEngine;
 
+[DisallowMultipleComponent]
 public class SkeletonShootTimer : MonoBehaviour
 {
-    [SerializeField] private float shootInterval = 5f;
+    [Header("Control de disparo")]
+    [SerializeField, Range(0.5f, 10f), Tooltip("Tiempo base entre disparos (segundos)")]
+    private float shootInterval = 5f;
+
+    [SerializeField, Range(0f, 1f), Tooltip("Variación aleatoria del intervalo")]
+    private float randomVariance = 0.5f;
+
     private float timer;
     private SkeletonShooter shooter;
 
     void Start()
     {
         shooter = GetComponent<SkeletonShooter>();
-        timer = shootInterval * Random.Range(0.5f, 1.5f);
+        timer = shootInterval * Random.Range(1f - randomVariance, 1f + randomVariance);
     }
 
     void Update()
@@ -18,7 +25,7 @@ public class SkeletonShootTimer : MonoBehaviour
         if (timer <= 0f)
         {
             shooter?.Shoot();
-            timer = shootInterval;
+            timer = shootInterval * Random.Range(1f - randomVariance, 1f + randomVariance);
         }
     }
 }

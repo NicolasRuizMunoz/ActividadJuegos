@@ -31,7 +31,7 @@ public class PhysicsController : MonoBehaviour
             }
             else
             {
-                audioCtrl?.PlayWallBeep();
+                GlobalEvents.Instance?.RaiseWallBump();
             }
         }
     }
