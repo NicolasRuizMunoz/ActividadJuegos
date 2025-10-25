@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Wall
   - Background
+  - Exit
+  - Gazer
+  - HorizontalWall
+  - DrunkenSkeletonArcher
+  - DrunkenArcher
   layers:
   - Default
   - TransparentFX
